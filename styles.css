@@ -1,0 +1,62 @@
+* {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: black;
+}
+
+#title{
+  margin-top: 5px;
+  text-align: center;
+  font-size: 3.5rem;
+  letter-spacing: 0.25rem;
+  font-weight: 900;
+  color: white;
+}
+
+
+p {
+  margin-top: 0;
+  color: #67db39;
+  font-size: 1rem;
+ text-align: center;
+}
+
+.set {
+  margin-top: 0%;
+  margin-left: 30%;
+}
+
+.t {
+  background-image: url('https://raw.githubusercontent.com/Ayushparikh-code/Web-dev-mini-projects/main/tabla/img/tap1.png');
+}
+
+.d {
+  background-image: url('https://raw.githubusercontent.com/Ayushparikh-code/Web-dev-mini-projects/main/tabla/img/tap2.png');
+}
+
+.tabla {
+  display: inline-block;
+  width: 270px;
+  height: 250px;
+  align-self: center;
+  box-shadow: none;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+button {
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+}
